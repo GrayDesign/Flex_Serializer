@@ -1,0 +1,48 @@
+@import "reset";
+@import "breakepoints.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap');
+@import "variables";
+@import "App";
+@import "header";
+@import "navContainer";
+@import 'list.scss';
+
+
+
+
+////variables:
+//$primary-color: #FFD900;
+//$secondary-color: #FEF167;
+//$dark-gray: #ABAFB3;
+//$light-gray: #DEDFE0;
+//$light-font: #6d747A;
+//$dark-font: #2A343D;
+//$alert-color: #F05107;
+//$contrast-color: #4094E3;
+//$light-contrast: #9CCEF7;
+//$background-darker: #F0F1F2;
+//$background-lighter:#FAFAFA;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Lato', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+
+  //.App {
+  //  height: 100vh;
+  //  background-color: $background-darker;
+  //}
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
