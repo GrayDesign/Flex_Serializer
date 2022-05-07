@@ -7,10 +7,11 @@
   border: $dark-gray;
   z-index: 2;
   transform: translateY(-15px);
+  position: relative;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-end;
 
   -webkit-box-shadow: 13px -13px 6px -16px rgba(66, 68, 90, 1);
@@ -176,4 +177,30 @@
     }
   }
     }
+.addBtnSquare {
+  display: none;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 13px 13px 19px -12px rgba(66, 68, 90, 1);
+  background-color: $primary-color;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  transform:translateY(-7px);
+  z-index: 2;
 
+  @include media('>tablet', '<=desktop') {
+    display: block;
+    position: absolute;
+    transform:translateY(-8vh);
+
+
+  }
+
+  @include media('>desktop') {
+    display: block;
+    position: absolute;
+    transform:translateY(-8vh);
+
+  }
+}

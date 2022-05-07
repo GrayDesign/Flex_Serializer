@@ -34,36 +34,27 @@
     transform:translateY(-7px);
   }
 
-  .addBtnSquare {
-    display: none;
-    width: 120px;
-    border-radius: 5px;
-    box-shadow: 13px 13px 19px -12px rgba(66, 68, 90, 1);
-    background-color: $primary-color;
-    padding: 5px;
-    color: white;
-    font-weight: bold;
-    transform:translateY(-7px);
-    z-index: 2;
-
-    @include media('>tablet', '<=desktop') {
-      display: block;
-
-    }
-
-    @include media('>desktop') {
-      display: block;
-      //width: 120px;
-      //border-radius: 5px;
-      //box-shadow: 13px 13px 19px -12px rgba(66, 68, 90, 1);
-      //background-color: $primary-color;
-      //padding: 5px;
-      //color: white;
-      //font-weight: bold;
-      //transform:translateY(-7px);
-      //z-index: 2;
-    }
-  }
+  //.addBtnSquare {
+  //  display: none;
+  //  width: 120px;
+  //  border-radius: 5px;
+  //  box-shadow: 13px 13px 19px -12px rgba(66, 68, 90, 1);
+  //  background-color: $primary-color;
+  //  padding: 5px;
+  //  color: white;
+  //  font-weight: bold;
+  //  transform:translateY(-7px);
+  //  z-index: 2;
+  //
+  //  @include media('>tablet', '<=desktop') {
+  //    display: block;
+  //
+  //  }
+  //
+  //  @include media('>desktop') {
+  //    display: block;
+  //  }
+  //}
 }
 
 .landing {

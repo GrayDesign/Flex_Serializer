@@ -8,17 +8,3 @@ const AddBtn = ({onPress}) => {
 }
 
 export default AddBtn;
-
-// const NewCustomButton = ({ onPress }) => {
-//
-//     return (
-//
-//         <button type="button" onClick={onPress}>
-//
-//             Click on me
-//
-//         </button>
-//
-//     );
-//
-// };

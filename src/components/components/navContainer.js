@@ -2,6 +2,8 @@ import React from "react";
 //import Categories from "./categories";
 //import select from 'react-select';
 import {useState} from "react";
+import AddBtnSquare from "./addBtnSquare";
+
 
 
 const NavContainer = () => {
@@ -24,7 +26,6 @@ const NavContainer = () => {
                     <option value="Audiobooks">Audiobooks</option>
                 </select>
             </form>
-            <button className='addBtnSquare'>+ Add title</button>
         </div>
     )
 }

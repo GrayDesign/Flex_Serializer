@@ -6,7 +6,6 @@ import 'firebase/compat/auth';
 //import {auth} from "./firebase";
 import {getAuth, signInWithPopup, GoogleAuthProvider} from "firebase/auth";
 
-
 //import { useAuthState} from "react-firebase-hooks/auth";
 
 
@@ -20,11 +19,6 @@ const SignIn = () => {
         signInWithPopup(auth, provider)
     }
 
-    // const Landing = {
-    //     color: 'green',
-    //
-    //
-    // }
 
     return (
         <div className='App'>

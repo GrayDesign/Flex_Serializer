@@ -11,7 +11,6 @@ const LoggedIn = () => {
             <Header/>
             <NavContainer/>
             <ListContainer/>
-            {/*<CreateNote />*/}
         </div>
     )
 }
